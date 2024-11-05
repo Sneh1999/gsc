@@ -1,0 +1,15 @@
+sgx.enclave_size = "4G"
+sgx.max_threads = 8
+
+sgx.trusted_files = [
+  "file:/gramine/app_files/entrypoint.manifest",  # unused entry, only to test merging of manifests
+  "file:/config/poster_config.json",
+  "file:/config/l2_chain_info.json",
+  "file:/l1keystore/0x3E6134aAD4C4d422FF2A4391Dc315c4DDf98D1a5.key",
+  "file:/l1keystore/0x6A568afe0f82d34759347bb36F14A6bB171d2CBe.key",
+  "file:/l1keystore/0x3f1Eae7D46d88F08fc2F8ed27FCb2AB183EB2d0E.key",
+  "file:/l1keystore/0x863c904166E801527125D8672442D736194A3362.key",
+  "file:/l1keystore/0x46225F4cee2b4A1d506C7f894bb3dAeB21BF1596.key",
+  "file:/l1keystore/0xe2148eE53c0755215Df69b2616E552154EdC584f.key",
+  "file:/l1keystore/0x5E1497dD1f08C87b2d8FE23e9AAB6c1De833D927.key"
+]
