@@ -1,2 +1,3 @@
 sgx.enclave_size = "4G"
 sgx.max_threads = 8
+loader.log_level = "all"
