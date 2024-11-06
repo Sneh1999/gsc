@@ -1,1 +1,2 @@
 loader.log_level = "all"
+sgx.edmm_enable = true

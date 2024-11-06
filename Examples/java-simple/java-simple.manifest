@@ -1,6 +1,6 @@
 # For better performance.
 libos.check_invalid_pointers = false
-
+sgx.edmm_enable = true
 # This option is needed because Java uses memory-fault exception handlers.
 sgx.use_exinfo = true
 
