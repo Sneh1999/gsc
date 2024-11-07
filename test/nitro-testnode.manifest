@@ -6,4 +6,4 @@ sgx.nonpie_binary = true
 sgx.enclave_size = "4G"
 sgx.edmm_enable = false
 sgx.max_threads = 128
-loader.insecure__use_host_env = true
+loader.env.HOME = "/home/user"
