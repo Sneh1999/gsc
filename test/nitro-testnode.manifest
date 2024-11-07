@@ -1,4 +1,4 @@
-loader.log_level = "all"
+loader.log_level = "debug"
 sys.enable_sigterm_injection = true
 sys.stack.size = "2M"
 sys.enable_extra_runtime_domain_names_conf = true
