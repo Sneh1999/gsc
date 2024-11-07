@@ -1,12 +1,10 @@
-loader.log_level = "debug"
 sys.enable_sigterm_injection = true
 sys.stack.size = "2M"
 sys.enable_extra_runtime_domain_names_conf = true
 sgx.nonpie_binary = true
-sgx.enclave_size = "4G"
+sgx.enclave_size = "8G"
 sgx.edmm_enable = false
 sgx.max_threads = 128
 loader.env.HOME = "/home/user"
 sgx.allowed_files = ["file:/home/user/.arbitrum"]
 sys.experimental__enable_flock = true
-sgx.insecure__allow_memfaults_without_exinfo = true
