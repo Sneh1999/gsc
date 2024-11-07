@@ -7,3 +7,4 @@ sgx.enclave_size = "4G"
 sgx.edmm_enable = false
 sgx.max_threads = 128
 loader.env.HOME = "/home/user"
+sgx.allowed_files = ["file:/home/user/.arbitrum"]
