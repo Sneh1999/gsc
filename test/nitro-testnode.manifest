@@ -9,4 +9,4 @@ loader.env.HOME = "/home/user"
 sgx.allowed_files = ["file:/home/user/.arbitrum"]
 sys.experimental__enable_flock = true
 sgx.insecure__allow_memfaults_without_exinfo = true
-sgx.trusted_files = ["file:/config", "file:/l1keystore"]
+sgx.trusted_files = ["file:/config/", "file:/l1keystore/"]
