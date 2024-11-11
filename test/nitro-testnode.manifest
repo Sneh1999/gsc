@@ -1,5 +1,4 @@
 sys.enable_sigterm_injection = true
-sgx.nonpie_binary = true
 sgx.edmm_enable = true
 loader.env.HOME = "/home/user"
 sgx.allowed_files = ["file:/home/user/.arbitrum"]
