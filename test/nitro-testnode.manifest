@@ -2,5 +2,4 @@ sys.enable_sigterm_injection = true
 sgx.edmm_enable = true
 loader.env.HOME = "/home/user"
 sgx.allowed_files = ["file:/home/user/.arbitrum"]
-sys.experimental__enable_flock = true
-sgx.exinfo = true
+sgx.use_exinfo = true
