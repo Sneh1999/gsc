@@ -9,4 +9,3 @@ loader.env.HOME = "/home/user"
 sgx.allowed_files = ["file:/home/user/.arbitrum"]
 sys.experimental__enable_flock = true
 sgx.use_exinfo = true
-sgx.remote_attestation = "dcap" 
